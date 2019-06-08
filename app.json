@@ -4,5 +4,7 @@
 	"repository": "https://github.com/elasa-Sites/heroku-postgresql-drupal",
 	"logo": "http://technomile.github.io/img/cms_buildpack_github.png",
 	"keywords": ["drupal", "heroku", "php", "postgresql", "apache", "apache2", "nginx"],
-	"addons": ["heroku-postgresql:hobby-dev","newrelic:wayne","sendgrid:starter"]
+	"addons": ["heroku-postgresql:hobby-dev",
+             "_comment":"newrelic:wayne","_comment":"sendgrid:starter"
+             ]
 }
