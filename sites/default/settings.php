@@ -240,9 +240,9 @@ $databases = array (
       'username' => $db["user"],
       'password' => $db["pass"],
       'host' => $db["host"],
-      'port' => '3306
+      'port' => '3306',
 	  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-      'driver' => 'mysql
+      'driver' => 'mysql',
       'prefix' => '',
     ),
   ),
