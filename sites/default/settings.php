@@ -212,6 +212,8 @@
  *   );
  * @endcode
  */
+ /**
+
  $databases = array (
   'default' => 
   array (
@@ -227,8 +229,24 @@
     ),
   ),
 );
-
- 
+*/
+ $db = parse_url($_ENV["DATABASE_URL_MYSQL"]);
+$databases = array (
+  'default' => 
+  array (
+    'default' => 
+    array (
+      'database' => trim($db["path"],"/"),
+      'username' => $db["user"],
+      'password' => $db["pass"],
+      'host' => $db["host"],
+      'port' => '3306
+	  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+      'driver' => 'mysql
+      'prefix' => '',
+    ),
+  ),
+);
  /**
 $db = parse_url($_ENV["DATABASE_URL"]);
 $databases = array (
