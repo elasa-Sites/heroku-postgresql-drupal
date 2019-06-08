@@ -4,5 +4,5 @@
 	"repository": "https://github.com/elasa-Sites/heroku-postgresql-drupal",
 	"logo": "http://technomile.github.io/img/cms_buildpack_github.png",
 	"keywords": ["drupal", "heroku", "php", "postgresql", "apache", "apache2", "nginx"],
-	"addons": [  “//”: “Actually, a multiline comment”,"heroku-postgresql:hobby-dev" ]
+	"addons": [  “//”: “Actually, a multiline comment heroku-postgresql:hobby-dev" ]
 }
