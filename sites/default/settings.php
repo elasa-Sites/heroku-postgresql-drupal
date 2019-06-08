@@ -247,6 +247,7 @@ $databases = array (
     ),
   ),
 );
+
  /**
 $db = parse_url($_ENV["DATABASE_URL"]);
 $databases = array (
